@@ -11,7 +11,12 @@ export default class RHSView extends React.PureComponent {
     render() {
         return (
             <div style={style.rhs}>
-                <br/>
+                <div style={style.searchcontainer}>
+                <input type='text' placeholder='search for documents' style={style.searchbar}/>
+                <button style={style.iconbar}><i class='fab fa-instagram'></i></button>    
+                </div>
+                
+                {/* <br/>
                 <br/>
                 <br/>
                 <br/>
@@ -39,7 +44,7 @@ export default class RHSView extends React.PureComponent {
                 <br/>
                 <a onClick={() => window.WebappUtils.browserHistory.push(`/${this.props.team.name}/com.mattermost.demo-plugin/teamtest`)}>
                     {`/${this.props.team.name}/com.mattermost.demo-plugin/teamtest`}
-                </a>
+                </a> */}
             </div>
         );
     }
@@ -47,6 +52,38 @@ export default class RHSView extends React.PureComponent {
 
 const style = {
     rhs: {
-        padding: '10px',
+        paddingBottom: '10px'
     },
+    searchbar: {
+        height: '40px',
+        borderTop: '0px',
+        borderLeft: '0px',
+        borderRight: '0px',
+        paddingTop: 0,
+        paddingLeft: '10px',
+        paddingBottom: '0px',
+        flex: 5,
+    },
+    iconbar: {
+     flex: 1,
+     display: 'flex',
+     alignItems: 'center',
+     justifyContant: 'center',
+     borderRight: 0,
+     borderTop: 0,
+    borderBottom: 0,
+     height: '40px',
+     borderLeft: '1px solid #eeeeee',
+     padding: 0,
+     backgroundColor: '#fff',
+     borderBottom: '1px solid #eeeeee'
+    },
+    searchcontainer: {
+        width: '100%',
+        height: '40px',
+        display: 'flex',
+        flexDirection: 'row',
+        alignItems: 'center',
+        borderBottom: '1px solid #eeeeee',
+    }
 };

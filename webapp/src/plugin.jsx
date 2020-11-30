@@ -61,7 +61,7 @@ export default class DemoPlugin {
             RHSView,
             <FormattedMessage
                 id='plugin.name'
-                defaultMessage='Demo Plugin'
+                defaultMessage='Documents'
             />);
 
         registry.registerChannelHeaderButtonAction(

@@ -1,13 +1,13 @@
 {
   "demo.testintl": "This is the English String",
   "demo.triggeredby": "Element clicked in the menu: ",
-  "plugin.name": "Demo Plugin",
+  "plugin.name": "Documents",
   "plugin.upload": "Upload using Demo Plugin",
   "rhs.triggered": "You have triggered the right-hand sidebar component of the demo plugin.",
   "root.clicktoclose": "Click anywhere to close.",
   "root.triggered": "You have triggered the root component of the demo plugin.",
   "sample.confirmation.dialog": "Sample Confirmation Dialog",
-  "sidebar.demo": "Demo Plugin:",
+  "sidebar.demo": "Documents:",
   "sidebar.disabled": "Disabled",
   "sidebar.enabled": "Enabled",
   "submenu.first": "First Item",
@@ -16,5 +16,5 @@
   "submenu.third": "Third Item",
   "tooltip.message": "This is a custom tooltip from the Demo Plugin",
   "useractions.action": "Action",
-  "useractions.demo": "Demo Plugin: "
+  "useractions.demo": "Documents: "
 }
